@@ -1,4 +1,4 @@
-# Physics: Phép đo, sai số
+# Physics: Phép đo, sai số và độ không đảm bảo đo
 
 ## Mục lục
 
@@ -10,11 +10,13 @@
 
 	  - [1.1.2.Phép đo gián tiếp](#112phép-đo-gián-tiếp)
 
-	- [1.2.Đại lượng vật lý và đơn vị đo](#1.2.đại-lượng-vật-lý-và-đơn-vị-đo)
+	- [1.2.Đại lượng vật lý và đơn vị đo](#12đại-lượng-vật-lý-và-đơn-vị-đo)
 
-	  - 1.2.1.Đại lượng cơ bản và đại lượng dẫn xuất
+	  - [1.2.1.Đại lượng cơ bản và đại lượng dẫn xuất](#121đại-lượng-cơ-bản-và-đại-lượng-dẫn-xuất)
 
-	  - 1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị
+	  - [1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị](#122hệ-đơn-vị-si-và-chuyển-đổi-đơn-vị)
+
+	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
 
@@ -102,11 +104,11 @@
 
 Phép đo là quá trình so sánh một đại lượng cần đo với một đại lượng cùng loại được chọn làm đơn vị đo, nhằm xác định giá trị của đại lượng đó. Nói đơn giản thế này, muốn biết một vật dài bao nhiêu, ta so sánh chiều dài của nó với một đơn vị chiều dài, chẳng hạn mét. Các thuật ngữ của vật lý cơ bản như sau:
 
-- **dụng cụ đo :** chỉ một vật có thể đo đại lượng của một vật, ví dụ thước đo đại lượng chiều dài cm truyền thống, hay đồng hồ bấm giờ để đo thời gian, thậm chí dùng lệnh `perf`, `time` để đo thời gian thực thi một chương trình cũng được xem là dụng cụ đo dù đó là software
+- **dụng cụ hoặc công cụ đo:** chỉ một vật có thể đo đại lượng của một vật, ví dụ thước đo đại lượng chiều dài cm truyền thống, hay đồng hồ bấm giờ để đo thời gian, thậm chí dùng lệnh `perf`, `time` để đo thời gian thực thi một chương trình cũng được xem là dụng cụ đo dù đó là software
 
 - **Đơn vị đo :** Chi một ký hiệu đơn vị ví dụ như `(cm, kg, ns (nanosecond : nano_giây), ms (milisecond : mili-giây), s (second : giây), h (hour : giờ), v.v..)`
 
-- **Đại lượng cần đo :** là mình cần đo cái gì của vật, ví dụ đo chiều dài, chiều rộng, cân nặng, thời gian
+- **Đại lượng cần đo :** là mình cần đo cái gì của vật, ví dụ đo chiều dài, chiều rộng, khối lượng, thời gian
 
 - **Kết quả đo :** là kết quả sau khi thực nghiệm quá trình đo đạc
 
@@ -126,14 +128,17 @@ $$\Large\text{X} = x . u$$
 
 - $$\large u$$ : là đơn vị đo cùng loại
 
-cho ví dụ, từ kết quả trên đo cây bút chì ta được `10cm` bây giờ ta đổi sang `cm` thì ta dùng, $$\large X_{\text{cm}} = 10 . 1 = 10$$, nhưng nếu muốn đổi sang `mm` thì ta dùng $$\large X_{\text{mm}} = 10 . 10 = 100$$
+cho ví dụ, từ kết quả trên đo cây bút chì ta được `10cm` bây giờ ta đổi sang `cm` thì ta dùng, $$\large X = 10 . 1 = 10\text{ cm}$$, nhưng nếu muốn đổi sang `mm` thì ta dùng $$\large X = 10 . 10 = 100\text{ mm}$$
 
 > [!IMPORTANT]
 > **Lưu ý:** Giá trị bằng số phụ thuộc vào đơn vị đo được chọn. Chẳng hạn, chiều dài `10 cm` cũng bằng `100 mm`. Đại lượng vật lý không thay đổi, chỉ cách biểu diễn thay đổi.
 
 ### 1.1.1.Phép đo trực tiếp
 
-Cái này đơn giản là dùng các dụng cụ để đo các đại lượng của vật, ví dụ dùng thước đo bút chì biết ngay `10cm`, hay dùng đồng hồ đo diện đo được điện trở là `300ohm` hoặc dùng `perf` để đo thời gian thực thi của chương trình
+Cái này đơn giản là xác định đại lượng cần đo bằng cách đọc kết quả từ dụng cụ hoặc hệ thống đo đã được thiết lập để đo đại lượng đó, ví dụ dùng thước đo bút chì biết ngay `10cm`, hay dùng đồng hồ đo diện đo được điện trở là `300ohm` hoặc dùng `perf` để đo thời gian thực thi của chương trình
+
+> [!WARNING]
+> Đo trực tiếp chỉ mô tả cách xác định đại lượng, không bảo đảm kết quả chính xác tuyệt đối. **Ví dụ**, đồng hồ vạn năng có thể hiển thị `5,00 V` nhưng giá trị thực của điện áp vẫn có thể khác `5,00 V`. Phần này sẽ được giải thích đầy đủ trong chương [sai số và độ không đảm bảo đo](#2sai-số-và-độ-không-đảm-bảo-đo).
 
 ### 1.1.2.Phép đo gián tiếp
 
@@ -149,4 +154,9 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 
 Đại lượng cơ bản là những đại lượng được chọn làm cơ sở độc lập trong một hệ đơn vị. **Ví dụ**, độ dài, khối lượng và thời gian.
 
-Đại lượng dẫn xuất được xác định thông qua các đại lượng khác bằng một quan hệ toán học. **Ví dụ**, vận tốc được xác định bằng quãng đường chia cho thời gian $$\large v = \frac{s}{t}$$ Gia tốc được xác định bằng độ biến thiên vận tốc chia cho thời gian $$\large a = \frac{\Delta v}{\Delta t}$$. Điều kiện chỉ được gọi đại lượng dẫn xuất khi các mối quan hệ toán học được tính toán từ các đại lượng thuộc đơn vị dẫn xuất trong SI (đơn vị dẫn xuất trong SI tại chương [1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị](#122hệ-đơn-vị-si-và-chuyển-đổi-đơn-vị))
+Đại lượng dẫn xuất được xác định thông qua các đại lượng khác bằng một quan hệ toán học. **Ví dụ**, vận tốc được xác định bằng quãng đường chia cho thời gian $$\large v = \frac{s}{t}$$ Gia tốc được xác định bằng độ biến thiên vận tốc chia cho thời gian $$\large a = \frac{\Delta v}{\Delta t}$$.
+
+### 1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị
+
+> [IMPORTANT]
+> Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất, đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó.
