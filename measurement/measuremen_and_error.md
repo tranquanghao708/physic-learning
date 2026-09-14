@@ -4,11 +4,11 @@
 
 - [1.Phép đo và các đại lượng đo lường](#1phép-đo-và-các-đại-lượng-đo-lường)
 
-	- 1.1.Khái niệm phép đo
+	- [1.1.Khái niệm phép đo](#11khái-niệm-phép-đo)
 
-	  - 1.1.1.Phép đo trực tiếp
+	  - [1.1.1.Phép đo trực tiếp](#111phép-đo-trực-tiếp)
 
-	  - 1.1.2.Phép đo gián tiếp
+	  - [1.1.2.Phép đo gián tiếp](#112phép-đo-gián-tiếp)
 
 	- 1.2.Đại lượng vật lý và đơn vị đo
 
@@ -130,3 +130,13 @@ cho ví dụ, từ kết quả trên đo cây bút chì ta được `10cm` bây 
 
 > [!IMPORTANT]
 > **Lưu ý:** Giá trị bằng số phụ thuộc vào đơn vị đo được chọn. Chẳng hạn, chiều dài `10 cm` cũng bằng `100 mm`. Đại lượng vật lý không thay đổi, chỉ cách biểu diễn thay đổi.
+
+### 1.1.1.Phép đo trực tiếp
+
+Cái này đơn giản là dùng các dụng cụ để đo các đại lượng của vật, ví dụ dùng thước đo bút chì biết ngay `10cm`, hay dùng đồng hồ đo diện đo được điện trở là `300ohm` hoặc dùng `perf` để đo thời gian thực thi của chương trình
+
+### 1.1.2.Phép đo gián tiếp
+
+Cái này đơn giản là dùng các biểu thức toán học suy ra các đại lượng chưa biết của vật sau khi đã biết các đại lượng khác từ phép đo trực tiếp, ví dụ một tam giác vuông ta biết hai cạnh đối và kề vì đo bằng thước, ta dùng định lý pythagoras để tính ra cạnh huyền, gọi là phép đo gián tiếp
+
+## 1.2.Đại lượng vật lý và đơn vị đo
