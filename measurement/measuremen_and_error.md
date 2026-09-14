@@ -110,4 +110,23 @@ Phép đo là quá trình so sánh một đại lượng cần đo với một �
 
 - **Kết quả đo :** là kết quả sau khi thực nghiệm quá trình đo đạc
 
-**Ví dụ**, ta có một cây thước và bút chì, thước là dụng cụ đo, ta muốn đo chiều dài thì gọi đó là đại lượng cần đo, thước chỉ có `cm` là thước truyền thống ta gọi đó là đơn vị đo (cm), kết quả sau khi đo một cây bút chì là `10cm`
+**Ví dụ**, ta có một cây thước và bút chì, thước là dụng cụ đo, ta muốn đo chiều dài thì gọi đó là đại lượng cần đo, thước chỉ có `cm` là thước truyền thống ta gọi đó là đơn vị đo (cm), kết quả sau khi đo một cây bút chì là `10cm`. Dựa vào đó ta suy ra bản chất toán học của phép đo là:
+
+<div align="center">
+
+$$\Large\text{X} = x . u$$
+
+</div>
+
+**Trong đó :**
+
+- X : là đại lượng cần đo
+
+- $$\large x$$ : là giá trị bằng số của đại lượng đó
+
+- $$\large u$$ : là đơn vị đo cùng loại
+
+cho ví dụ, từ kết quả trên đo cây bút chì ta được `10cm` bây giờ ta đổi sang `cm` thì ta dùng, $$\large X_{\text{cm}} = 10 . 1 = 10$$, nhưng nếu muốn đổi sang `mm` thì ta dùng $$\large X_{\text{mm}} = 10 . 10 = 100$$
+
+> [!IMPORTANT]
+> **Lưu ý:** Giá trị bằng số phụ thuộc vào đơn vị đo được chọn. Chẳng hạn, chiều dài `10 cm` cũng bằng `100 mm`. Đại lượng vật lý không thay đổi, chỉ cách biểu diễn thay đổi.
