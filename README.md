@@ -9,7 +9,7 @@
 </td>
 
 <td>
-  <img>src="logo_aesten.jpg"</img>
+  <img src="logo_aesten.jpg" />
 </td>
 
 </tr>
