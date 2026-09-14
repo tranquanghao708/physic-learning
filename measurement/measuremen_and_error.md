@@ -142,11 +142,11 @@ Cái này đơn giản là xác định đại lượng cần đo bằng cách �
 
 ### 1.1.2.Phép đo gián tiếp
 
-Cái này đơn giản là dùng các biểu thức toán học suy ra các đại lượng chưa biết của vật sau khi đã biết các đại lượng khác từ phép đo trực tiếp, ví dụ một tam giác vuông ta biết hai cạnh đối và kề vì đo bằng thước, ta dùng định lý pythagoras để tính ra cạnh huyền, gọi là phép đo gián tiếp
+Cái này đơn giản là dùng các biểu thức toán học suy ra các đại lượng chưa biết của vật sau khi đã biết các đại lượng khác từ phép đo trực tiếp, ví dụ một tam giác vuông ta biết hai cạnh góc vuông vì đo bằng thước, ta dùng định lý pythagoras để tính ra cạnh huyền, gọi là phép đo gián tiếp
 
 ## 1.2.Đại lượng vật lý và đơn vị đo
 
-Đại lượng vật lý là một thuộc tính của vật thể, hiện tượng hoặc hệ vật lý có thể xác định bằng phép đo và biểu diễn bằng một giá trị cùng đơn vị đo. **Ví dụ**, Chiều dài của một dây dẫn, khối lượng của một linh kiện, nhiệt độ của CPU, điện áp giữa hai điểm trong mạch điện, thời gian thực thi một chương trình. Mỗi đại lượng mô tả một thuộc tính khác nhau, chiều dài không phải khối lượng, điện áp không phải dòng điện, và thời gian không phải tần số. Một đại lượng vật lý thường được biểu diễn bằng công thức $$\large\text{X} = x.u$$ như trên
+Đại lượng vật lý là một thuộc tính định lượng của một vật thể, hiện tượng hoặc hệ vật lý, có thể được biểu diễn bằng một giá trị số kèm theo đơn vị đo thích hợp. **Ví dụ**, Chiều dài của một dây dẫn, khối lượng của một linh kiện, nhiệt độ của CPU, điện áp giữa hai điểm trong mạch điện, thời gian thực thi một chương trình. Mỗi đại lượng mô tả một thuộc tính khác nhau, chiều dài không phải khối lượng, điện áp không phải dòng điện, và thời gian không phải tần số. Một đại lượng vật lý thường được biểu diễn bằng công thức $$\large\text{X} = x.u$$ như trên
 
 Đơn vị đo là một đại lượng cùng loại được chọn làm chuẩn để biểu diễn và so sánh các giá trị của đại lượng cần đo. **Ví dụ**, mét là đơn vị đo chiều dài, giây là đơn vị đo thời gian, volt là đơn vị đo hiệu điện thế.
 
@@ -158,5 +158,15 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 
 ### 1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị
 
-> [IMPORTANT]
+| Đại lượng cơ bản SI         | Đơn vị SI     |
+| --------------------------- | ------------- |
+| Thời gian                   | second (s)    |
+| Độ dài                      | metre (m)     |
+| Khối lượng                  | kilogram (kg) |
+| Dòng điện                   | ampere (A)    |
+| Nhiệt độ nhiệt động lực học | kelvin (K)    |
+| Lượng chất                  | mole (mol)    |
+| Cường độ sáng               | candela (cd)  |
+
+> [!IMPORTANT]
 > Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất, đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó.
