@@ -10,7 +10,7 @@
 
 	  - [1.1.2.Phép đo gián tiếp](#112phép-đo-gián-tiếp)
 
-	- 1.2.Đại lượng vật lý và đơn vị đo
+	- [1.2.Đại lượng vật lý và đơn vị đo](#1.2.đại-lượng-vật-lý-và-đơn-vị-đo)
 
 	  - 1.2.1.Đại lượng cơ bản và đại lượng dẫn xuất
 
@@ -104,7 +104,7 @@ Phép đo là quá trình so sánh một đại lượng cần đo với một �
 
 - **dụng cụ đo :** chỉ một vật có thể đo đại lượng của một vật, ví dụ thước đo đại lượng chiều dài cm truyền thống, hay đồng hồ bấm giờ để đo thời gian, thậm chí dùng lệnh `perf`, `time` để đo thời gian thực thi một chương trình cũng được xem là dụng cụ đo dù đó là software
 
-- **Đơn vị đo :** Chi một ký hiệu đơn vị ví dụ như `(cm, kg, ns (nanosecon : nano_giây), ms (milisecon : mili-giây), s (second : giây), h (hour : giờ), v.v..)`
+- **Đơn vị đo :** Chi một ký hiệu đơn vị ví dụ như `(cm, kg, ns (nanosecond : nano_giây), ms (milisecond : mili-giây), s (second : giây), h (hour : giờ), v.v..)`
 
 - **Đại lượng cần đo :** là mình cần đo cái gì của vật, ví dụ đo chiều dài, chiều rộng, cân nặng, thời gian
 
@@ -140,3 +140,13 @@ Cái này đơn giản là dùng các dụng cụ để đo các đại lượng
 Cái này đơn giản là dùng các biểu thức toán học suy ra các đại lượng chưa biết của vật sau khi đã biết các đại lượng khác từ phép đo trực tiếp, ví dụ một tam giác vuông ta biết hai cạnh đối và kề vì đo bằng thước, ta dùng định lý pythagoras để tính ra cạnh huyền, gọi là phép đo gián tiếp
 
 ## 1.2.Đại lượng vật lý và đơn vị đo
+
+Đại lượng vật lý là một thuộc tính của vật thể, hiện tượng hoặc hệ vật lý có thể xác định bằng phép đo và biểu diễn bằng một giá trị cùng đơn vị đo. **Ví dụ**, Chiều dài của một dây dẫn, khối lượng của một linh kiện, nhiệt độ của CPU, điện áp giữa hai điểm trong mạch điện, thời gian thực thi một chương trình. Mỗi đại lượng mô tả một thuộc tính khác nhau, chiều dài không phải khối lượng, điện áp không phải dòng điện, và thời gian không phải tần số. Một đại lượng vật lý thường được biểu diễn bằng công thức $$\large\text{X} = x.u$$ như trên
+
+Đơn vị đo là một đại lượng cùng loại được chọn làm chuẩn để biểu diễn và so sánh các giá trị của đại lượng cần đo. **Ví dụ**, mét là đơn vị đo chiều dài, giây là đơn vị đo thời gian, volt là đơn vị đo hiệu điện thế.
+
+### 1.2.1.Đại lượng cơ bản và đại lượng dẫn xuất
+
+Đại lượng cơ bản là những đại lượng được chọn làm cơ sở độc lập trong một hệ đơn vị. **Ví dụ**, độ dài, khối lượng và thời gian.
+
+Đại lượng dẫn xuất được xác định thông qua các đại lượng khác bằng một quan hệ toán học. **Ví dụ**, vận tốc được xác định bằng quãng đường chia cho thời gian $$\large v = \frac{s}{t}$$ Gia tốc được xác định bằng độ biến thiên vận tốc chia cho thời gian $$\large a = \frac{\Delta v}{\Delta t}$$. Điều kiện chỉ được gọi đại lượng dẫn xuất khi các mối quan hệ toán học được tính toán từ các đại lượng thuộc đơn vị dẫn xuất trong SI (đơn vị dẫn xuất trong SI tại chương [1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị](#122hệ-đơn-vị-si-và-chuyển-đổi-đơn-vị))
