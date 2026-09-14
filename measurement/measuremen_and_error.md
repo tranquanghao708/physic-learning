@@ -2,7 +2,7 @@
 
 ## Mục lục
 
-- 1.Phép đo và các đại lượng đo lường
+- [1.Phép đo và các đại lượng đo lường](#1phép-đo-và-các-đại-lượng-đo-lường)
 
 	- 1.1.Khái niệm phép đo
 
@@ -42,7 +42,7 @@
 
 	- 2.5.Hiệu chuẩn và kiểm định dụng cụ đo
 
-- 3. Xác định sai số và xử lý kết quả đo
+- 3.Xác định sai số và xử lý kết quả đo
 
 	- 3.1.Giá trị trung bình của nhiều lần đo
 
@@ -93,3 +93,21 @@
 	- 5.6.Xác suất và phân phối dữ liệu
 
 	- 5.7.Thống kê mô tả và phân tích ngoại lệ
+
+---
+
+# 1.Phép đo và các đại lượng đo lường
+
+## 1.1.Khái niệm phép đo
+
+Phép đo là quá trình so sánh một đại lượng cần đo với một đại lượng cùng loại được chọn làm đơn vị đo, nhằm xác định giá trị của đại lượng đó. Nói đơn giản thế này, muốn biết một vật dài bao nhiêu, ta so sánh chiều dài của nó với một đơn vị chiều dài, chẳng hạn mét. Các thuật ngữ của vật lý cơ bản như sau:
+
+- **dụng cụ đo :** chỉ một vật có thể đo đại lượng của một vật, ví dụ thước đo đại lượng chiều dài cm truyền thống, hay đồng hồ bấm giờ để đo thời gian, thậm chí dùng lệnh `perf`, `time` để đo thời gian thực thi một chương trình cũng được xem là dụng cụ đo dù đó là software
+
+- **Đơn vị đo :** Chi một ký hiệu đơn vị ví dụ như `(cm, kg, ns (nanosecon : nano_giây), ms (milisecon : mili-giây), s (second : giây), h (hour : giờ), v.v..)`
+
+- **Đại lượng cần đo :** là mình cần đo cái gì của vật, ví dụ đo chiều dài, chiều rộng, cân nặng, thời gian
+
+- **Kết quả đo :** là kết quả sau khi thực nghiệm quá trình đo đạc
+
+**Ví dụ**, ta có một cây thước và bút chì, thước là dụng cụ đo, ta muốn đo chiều dài thì gọi đó là đại lượng cần đo, thước chỉ có `cm` là thước truyền thống ta gọi đó là đơn vị đo (cm), kết quả sau khi đo một cây bút chì là `10cm`
