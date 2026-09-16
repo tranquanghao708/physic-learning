@@ -16,6 +16,16 @@
 
 	  - [1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị](#122hệ-đơn-vị-si-và-chuyển-đổi-đơn-vị)
 
+	  - [1.2.2.1.Bảy đơn vị cơ bản của hệ SI](#1221bảy-đơn-vị-cơ-bản-của-hệ-si)
+
+	  - [1.2.2.2.Đơn vị dẫn xuất](#1222đơn-vị-dẫn-xuất)
+
+	  - [1.2.2.3.Tiền tố SI](#1223tiền-tố-si)
+
+	  - 1.2.2.4.Chuyển đổi đơn vị
+
+	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
+
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
@@ -160,6 +170,8 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 
 Hệ đơn vị SI (International System of Units) là hệ thống đơn vị đo lường quốc tế được sử dụng rộng rãi trong khoa học, kỹ thuật và đo lường. SI cung cấp một hệ thống thống nhất để biểu diễn các đại lượng vật lý, trong đó có 7 đơn vị cơ bản làm nền tảng để xây dựng các đơn vị dẫn xuất. Bảng đơn vị cơ bản SI định nghĩa 7 đại lượng cơ bản, mỗi đại lượng có một đơn vị cơ bản tương ứng :
 
+#### 1.2.2.1. Bảy đơn vị cơ bản của hệ SI
+
 <div align="center">
 
 | Đại lượng cơ bản            | Ký hiệu đại lượng | Đơn vị SI            | Ký hiệu đơn vị |
@@ -176,6 +188,8 @@ Hệ đơn vị SI (International System of Units) là hệ thống đơn vị �
 
 > [!IMPORTANT]
 > Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N`. **Ví dụ:** `A = 4.2`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị Si
+
+#### 1.2.2.2. Đơn vị dẫn xuất
 
 Từ 7 đơn vị cơ bản, ta xây dựng các đơn vị dẫn xuất thông qua các quan hệ toán học giữa các đại lượng. Cho **ví dụ**, vận tốc ta biết :
 
@@ -235,3 +249,5 @@ $$\Large1J=1Nm=1kg.m^{2}/s^{2}$$
 </div>
 
 Như vậy, Joule (J) là một đơn vị dẫn xuất có tên riêng, nhưng về cấu tạo vẫn có thể phân tích thành các đơn vị cơ bản.
+
+#### 1.2.2.3. Tiền tố SI
