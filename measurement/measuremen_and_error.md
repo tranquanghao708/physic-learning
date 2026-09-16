@@ -158,6 +158,8 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 
 ### 1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị
 
+Hệ đơn vị SI (International System of Units) là hệ thống đơn vị đo lường quốc tế được sử dụng rộng rãi trong khoa học, kỹ thuật và đo lường. SI cung cấp một hệ thống thống nhất để biểu diễn các đại lượng vật lý, trong đó có 7 đơn vị cơ bản làm nền tảng để xây dựng các đơn vị dẫn xuất. Bảng đơn vị dẫn xuất căn bản :
+
 | Đại lượng cơ bản SI         | Đơn vị SI     |
 | --------------------------- | ------------- |
 | Thời gian                   | second (s)    |
@@ -169,4 +171,4 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 | Cường độ sáng               | candela (cd)  |
 
 > [!IMPORTANT]
-> Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất, đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó.
+> Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N`. **Ví dụ:** `A = 4.2`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị Si
