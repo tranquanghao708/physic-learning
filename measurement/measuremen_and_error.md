@@ -177,4 +177,18 @@ Hệ đơn vị SI (International System of Units) là hệ thống đơn vị �
 > [!IMPORTANT]
 > Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N`. **Ví dụ:** `A = 4.2`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị Si
 
-Từ 7 đơn vị cơ bản, ta xây dựng các đơn vị dẫn xuất thông qua các quan hệ toán học giữa các đại lượng.
+Từ 7 đơn vị cơ bản, ta xây dựng các đơn vị dẫn xuất thông qua các quan hệ toán học giữa các đại lượng. Cho **ví dụ**, vận tốc ta biết :
+
+<div align="center">
+
+$$\Large v=\frac{s}{t}$$
+
+</div>
+
+Nhưng trong SI thì nó lại biễu diễn như sau:
+
+<div align="center">
+
+$$\Large [v]=\frac{m}{s} = m/s$$
+
+</div>
