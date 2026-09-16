@@ -158,17 +158,23 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 
 ### 1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị
 
-Hệ đơn vị SI (International System of Units) là hệ thống đơn vị đo lường quốc tế được sử dụng rộng rãi trong khoa học, kỹ thuật và đo lường. SI cung cấp một hệ thống thống nhất để biểu diễn các đại lượng vật lý, trong đó có 7 đơn vị cơ bản làm nền tảng để xây dựng các đơn vị dẫn xuất. Bảng đơn vị dẫn xuất căn bản :
+Hệ đơn vị SI (International System of Units) là hệ thống đơn vị đo lường quốc tế được sử dụng rộng rãi trong khoa học, kỹ thuật và đo lường. SI cung cấp một hệ thống thống nhất để biểu diễn các đại lượng vật lý, trong đó có 7 đơn vị cơ bản làm nền tảng để xây dựng các đơn vị dẫn xuất. Bảng đơn vị cơ bản SI định nghĩa 7 đại lượng cơ bản, mỗi đại lượng có một đơn vị cơ bản tương ứng :
 
-| Đại lượng cơ bản SI         | Đơn vị SI     |
-| --------------------------- | ------------- |
-| Thời gian                   | second (s)    |
-| Độ dài                      | metre (m)     |
-| Khối lượng                  | kilogram (kg) |
-| Dòng điện                   | ampere (A)    |
-| Nhiệt độ nhiệt động lực học | kelvin (K)    |
-| Lượng chất                  | mole (mol)    |
-| Cường độ sáng               | candela (cd)  |
+<div align="center">
+
+| Đại lượng cơ bản            | Ký hiệu đại lượng | Đơn vị SI            | Ký hiệu đơn vị |
+| --------------------------- | ----------------: | -------------------- | -------------: |
+| Thời gian                   |             $$\large t$$ | giây (*second*)      |              s |
+| Độ dài                      |             $$\large l$$ | mét (*metre*)        |              m |
+| Khối lượng                  |             $$\large m$$ | kilôgam (*kilogram*) |             kg |
+| Dòng điện                   |             $$\large I$$ | ampe (*ampere*)      |              A |
+| Nhiệt độ nhiệt động lực học |             $$\large T$$ | kelvin               |              K |
+| Lượng chất                  |             $$\large n$$ | mol (*mole*)         |            mol |
+| Cường độ sáng               |             $$\large I_{v}$$ | candela              |             cd |
+
+</div>
 
 > [!IMPORTANT]
 > Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N`. **Ví dụ:** `A = 4.2`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị Si
+
+Từ 7 đơn vị cơ bản, ta xây dựng các đơn vị dẫn xuất thông qua các quan hệ toán học giữa các đại lượng.
