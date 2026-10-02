@@ -203,21 +203,21 @@ Nhưng trong SI thì nó lại biễu diễn như sau:
 
 <div align="center">
 
-$$\Large [v]=\frac{m}{s} = m/s$$
+$$\Large v=\frac{m}{s} = m/s$$
 
 </div>
 
-Ta thấy và nhìn kỹ ký hiệu $$\large [v]$$, ký hiệu này nghĩa là định nghĩa công thức tính $$\large v$$ trong đơn vị SI thay vì ký hiệu đơn vị. Cho thêm vài ví dụ ta có:
+Ta thấy và nhìn kỹ ký hiệu $$\large v$$, ký hiệu này nghĩa là định nghĩa công thức tính $$\large v$$ trong đơn vị SI thay vì ký hiệu đơn vị. Cho thêm vài ví dụ ta có:
 
 <div align="center">
 
 $$\Large\text{tính gia tốc: } a = \frac{\Delta v}{\Delta t}$$
 
-$$\Large\Rightarrow [a] = \frac{m/s}{s} = m/s^{2}$$
+$$\Large\Rightarrow a = \frac{m/s}{s} = m/s^{2}$$
 
 $$\Large\text{Tính lực: } F = ma$$
 
-$$\Large\Rightarrow [F] = kg . m/s^{2}$$
+$$\Large\Rightarrow F = kg . m/s^{2}$$
 
 </div>
 
@@ -230,7 +230,7 @@ Như thế, ta có một số đơn vị dẫn xuất thường gặp:
 | Diện tích       | $$\large A=l^{2}$$               | $$\large\mathrm{m^2}$$   |
 | Thể tích        | $$\large V=l^{3}$$               | $$\large\mathrm{m^3}$$   |
 | Vận tốc         | $$\large v=s/t$$               | $$\large\mathrm{m/s}$$  |
-| Gia tốc         | $$\large a=\Delta v\Delta t$$ | $$\large\mathrm{m/s^2}$$ |
+| Gia tốc         | $$\large a=\frac{\Delta v}{\Delta t}$$ | $$\large\mathrm{m/s^2}$$ |
 | Lực             | $$\large F=ma$$                | N                  |
 | Công/năng lượng | $$\large W=Fs$$                | J                  |
 | Công suất       | $$\large P=W/t$$               | W                  |
