@@ -3,107 +3,56 @@
 ## Mục lục
 
 - [1.Phép đo và các đại lượng đo lường](#1phép-đo-và-các-đại-lượng-đo-lường)
-
 	- [1.1.Khái niệm phép đo](#11khái-niệm-phép-đo)
-
 	  - [1.1.1.Phép đo trực tiếp](#111phép-đo-trực-tiếp)
-
 	  - [1.1.2.Phép đo gián tiếp](#112phép-đo-gián-tiếp)
-
 	- [1.2.Đại lượng vật lý và đơn vị đo](#12đại-lượng-vật-lý-và-đơn-vị-đo)
-
 	  - [1.2.1.Đại lượng cơ bản và đại lượng dẫn xuất](#121đại-lượng-cơ-bản-và-đại-lượng-dẫn-xuất)
-
 	  - [1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị](#122hệ-đơn-vị-si-và-chuyển-đổi-đơn-vị)
-
 	  - [1.2.2.1.Bảy đơn vị cơ bản của hệ SI](#1221bảy-đơn-vị-cơ-bản-của-hệ-si)
-
 	  - [1.2.2.2.Đơn vị dẫn xuất](#1222đơn-vị-dẫn-xuất)
-
 	  - [1.2.2.3.Tiền tố SI](#1223tiền-tố-si)
-
 	  - 1.2.2.4.Chuyển đổi đơn vị
-
 	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
-
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
-
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
-
 	- 1.4.Độ chính xác, độ chụm và độ phân giải
-
 - 2.Sai số và độ không đảm bảo đo
-
 	- 2.1.Khái niệm sai số phép đo
-
 	- 2.2.Sai số hệ thống
-
 	  - 2.2.1.Sai số do dụng cụ đo
-
 	  - 2.2.2.Sai số do phương pháp đo
-
 	  - 2.2.3.Sai số do môi trường và người đo
-
 	- 2.3.Sai số ngẫu nhiên
-
 	- 2.4.Độ không đảm bảo đo
-
 	  - 2.4.1.Phân biệt sai số và độ không đảm bảo đo
-
 	  - 2.4.2.Độ không đảm bảo loại A và loại B
-
 	- 2.5.Hiệu chuẩn và kiểm định dụng cụ đo
-
 - 3.Xác định sai số và xử lý kết quả đo
-
 	- 3.1.Giá trị trung bình của nhiều lần đo
-
 	- 3.2.Sai số tuyệt đối của từng lần đo
-
 	- 3.3.Sai số tuyệt đối trung bình
-
 	- 3.4.Sai số tuyệt đối của phép đo
-
 	- 3.5.Sai số tỉ đối và sai số phần trăm
-
 	- 3.6.Độ lệch chuẩn và phương sai
-
 	- 3.7.Chữ số có nghĩa và quy tắc làm tròn
-
 	- 3.8.Ghi kết quả đo và biểu diễn độ không đảm bảo
-
 - 4.Sai số của phép đo gián tiếp và truyền sai số
-
 	- 4.1.Sai số của tổng và hiệu
-
 	- 4.2.Sai số của tích và thương
-
 	- 4.3.Sai số của lũy thừa và căn bậc hai
-
 	- 4.4.Truyền sai số qua hàm số
-
 	  - 4.4.1.Vi phân và đạo hàm trong đo lường
-
 	  - 4.4.2.Truyền độ không đảm bảo theo căn tổng bình phương
-
 	- 4.5.Sai số tương quan giữa các đại lượng đo
-
 	- 4.6.Sai số giới hạn và trường hợp xấu nhất
-
 - 5.Cơ sở toán học của đo lường
-
 	- 5.1.Tỉ lệ, tỉ số và phần trăm
-
 	- 5.2.Trị tuyệt đối và độ lớn của sai lệch
-
 	- 5.3.Hàm số và sự phụ thuộc giữa các đại lượng
-
 	- 5.4.Cấp số cộng và độ biến thiên đều
-
 	- 5.5.Đạo hàm và độ nhạy của phép đo
-
 	- 5.6.Xác suất và phân phối dữ liệu
-
 	- 5.7.Thống kê mô tả và phân tích ngoại lệ
 
 ---
@@ -187,11 +136,11 @@ Hệ đơn vị SI (International System of Units) là hệ thống đơn vị �
 </div>
 
 > [!IMPORTANT]
-> Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N`. **Ví dụ:** `A = 4.2`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị Si
+> Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N` ko chỉ nằm ở số nguyên còn có thể được thực hiện ở, căn bậc, số mũ, phân số v.v.. . **Ví dụ:** `I = 4.2A`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị ampere, `4.2A` là giá trị của đại lượng được biểu diễn dưới dạng số + đơn vị
 
 #### 1.2.2.2.Đơn vị dẫn xuất
 
-Từ 7 đơn vị cơ bản, ta xây dựng các đơn vị dẫn xuất thông qua các quan hệ toán học giữa các đại lượng. Cho **ví dụ**, vận tốc ta biết :
+Đơn vị dẫn xuất được hình thành từ các đơn vị cơ bản thông qua các phép nhân, chia và lũy thừa. Cho **ví dụ**, vận tốc ta biết :
 
 <div align="center">
 
