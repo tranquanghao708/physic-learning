@@ -114,9 +114,7 @@ Cái này đơn giản là dùng các biểu thức toán học suy ra các đ�
 
 ### 1.2.1.Đại lượng cơ bản và đại lượng dẫn xuất
 
-Đại lượng cơ bản là những đại lượng được chọn làm cơ sở độc lập trong một hệ đơn vị. **Ví dụ**, độ dài, khối lượng và thời gian.
-
-Đại lượng dẫn xuất được xác định thông qua các đại lượng khác bằng một quan hệ toán học. **Ví dụ**, vận tốc được xác định bằng quãng đường chia cho thời gian $$\large v = \frac{s}{t}$$ Gia tốc được xác định bằng độ biến thiên vận tốc chia cho thời gian $$\large a = \frac{\Delta v}{\Delta t}$$.
+Đại lượng cơ bản là những đại lượng được chọn làm cơ sở độc lập trong một hệ đơn vị. **Ví dụ**, độ dài, khối lượng và thời gian. Đại lượng dẫn xuất được xác định thông qua các đại lượng khác bằng một quan hệ toán học. **Ví dụ**, vận tốc được xác định bằng quãng đường chia cho thời gian $$\Large v = \frac{s}{t}$$ Gia tốc được xác định bằng độ biến thiên vận tốc chia cho thời gian $$\Large a = \frac{\Delta v}{\Delta t}$$.
 
 ### 1.2.2.Hệ đơn vị SI và chuyển đổi đơn vị
 
@@ -227,7 +225,7 @@ Chuyển đổi đơn vị là quá trình biểu diễn cùng một đại lư�
 
 #### 1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại
 
-Muốn chuyển đổi giữa hai đơn vị cùng loại, cần xác định hệ số chuyển đổi giữa chúng. **Ví dụ**, 1km = 1000m do đó 3.5km = 3.5 x 1000 = 3500m ngược lại chuyển `km -> m` ta thay đổi phép nhân thành phép chia (nguyên lý toán học căn bản được vận dụng nhiều ở giải phương trình) cho ví dụ chuyển 1232m sang km ta xét $$\large1232m = \frac{1232}{1000} = 1.232km$$
+Muốn chuyển đổi giữa hai đơn vị cùng loại, cần xác định hệ số chuyển đổi giữa chúng. **Ví dụ**, 1km = 1000m do đó 3.5km = 3.5 x 1000 = 3500m ngược lại chuyển `km -> m` ta thay đổi phép nhân thành phép chia (nguyên lý toán học căn bản được vận dụng nhiều ở giải phương trình) cho ví dụ chuyển 1232m sang km ta xét $$\Large1232m = \frac{1232}{1000} = 1.232km$$
 
 Một cách tổng quát, nếu $$\large1A = kB$$ thì :
 <div align="center">
@@ -259,3 +257,5 @@ $$\Large8mm \times \frac{10^{-3}m}{1mm} = 8\times10^{-3}m$$
 Đơn vị $$\large\mathrm{mm}$$ triệt tiêu, còn lại $$\large\mathrm{m}$$. Đây là cách đặc biệt hữu ích khi thực hiện các phép tính có nhiều đơn vị.
 
 #### 1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa
+
+Khi đơn vị xuất hiện trong một đại lượng có lũy thừa, hệ số chuyển đổi cũng phải được nâng lên cùng lũy thừa. **Ví dụ**, ta có $$\large1m = 100cm = 10^{2}cm$$,
