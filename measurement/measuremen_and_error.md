@@ -228,11 +228,26 @@ Chuyển đổi đơn vị là quá trình biểu diễn cùng một đại lư�
 
 Muốn chuyển đổi giữa hai đơn vị cùng loại, cần xác định hệ số chuyển đổi giữa chúng. **Ví dụ**, 1km = 1000m do đó 3.5km = 3.5 x 1000 = 3500m ngược lại chuyển `km -> m` ta thay đổi phép nhân thành phép chia (nguyên lý toán học căn bản được vận dụng nhiều ở giải phương trình) cho ví dụ chuyển 1232m sang km ta xét $$\large1232m = \frac{1232}{1000} = 1.232km$$
 
-Một cách tổng quát, nếu $$\large1A = kB$$ thì $$\large xA = xkB$$ và $$\large yB = \frac{y}{k}A$$. Trong đó $$\large A$$ và $$\large B$$ là hai đơn vị của cùng một đại lượng.
+Một cách tổng quát, nếu $$\large1A = kB$$ thì :
+<div align="center">
+
+$$\Large xA = xkB$$ 
+
+</div>
+
+và 
+
+<div align="center">
+
+$$\Large yB = \frac{y}{k}A$$
+
+</div>
+
+Trong đó $$\large A$$ và $$\large B$$ là hai đơn vị của cùng một đại lượng.
 
 #### 1.2.2.4.2.Chuyển đổi thông qua tiền tố SI
 
-Các tiền tố SI cho biết bội số hoặc ước số của đơn vị. **Ví dụ** 1km = $$\large10^{3}$$m thì 2.4km = 2.4 $$\large\times 10^{3}$$m = 2400m, tương tự với việc chuyển đổi `mm -> m` và ta biết 1mm = $$\large10^{-3}$$m nên ta có 8mm = 8 $$\large\times10^{-3}$$m = 0.008m. Tuy nhiên, ta có thể viết trực tiếp bằng hệ số chuyển đổi như sau :
+Các tiền tố SI cho biết bội số hoặc ước số của đơn vị. **Ví dụ** $$\large1km = 10^{3}m$$ thì $$\large2.4km = 2.4 \times 10^{3}m$$ = 2400m, tương tự với việc chuyển đổi `mm -> m` và ta biết $$\large1mm = 10^{-3}m$$ nên ta có $$\large8mm = 8 \times10^{-3}m$$ = 0.008m. Tuy nhiên, ta có thể viết trực tiếp bằng hệ số chuyển đổi như sau :
 
 <div align="center">
 
