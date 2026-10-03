@@ -14,6 +14,7 @@
 	  - [1.2.2.3.Tiền tố SI](#1223tiền-tố-si)
 	  - [1.2.2.4.Chuyển đổi đơn vị](#1224chuyển-đổi-đơn-vị)
 	  - [1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại](#12241chuyển-đổi-giữa-các-đơn-vị-cùng-loại)
+	  - [1.2.2.4.2.Chuyển đổi thông qua tiền tố SI](#12242chuyển-đổi-thông-qua-tiền-tố-si)
 	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
@@ -225,6 +226,16 @@ Chuyển đổi đơn vị là quá trình biểu diễn cùng một đại lư�
 
 #### 1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại
 
-Muốn chuyển đổi giữa hai đơn vị cùng loại, cần xác định hệ số chuyển đổi giữa chúng. Ví dụ, 1km = 1000m do đó 3.5km = 3.5 x 1000 = 3500m ngược lại chuyển `km -> m` ta thay đổi phép nhân thành phép chia (nguyên lý toán học căn bản được vận dụng nhiều ở giải phương trình) cho ví dụ chuyển 1232m sang km ta xét $$\large1232m = \frac{1232}{1000} = 1.232km$$
+Muốn chuyển đổi giữa hai đơn vị cùng loại, cần xác định hệ số chuyển đổi giữa chúng. **Ví dụ**, 1km = 1000m do đó 3.5km = 3.5 x 1000 = 3500m ngược lại chuyển `km -> m` ta thay đổi phép nhân thành phép chia (nguyên lý toán học căn bản được vận dụng nhiều ở giải phương trình) cho ví dụ chuyển 1232m sang km ta xét $$\large1232m = \frac{1232}{1000} = 1.232km$$
 
 Một cách tổng quát, nếu $$\large1A = kB$$ thì $$\large xA = xkB$$ và $$\large yB = \frac{y}{k}A$$. Trong đó $$\large A$$ và $$\large B$$ là hai đơn vị của cùng một đại lượng.
+
+#### 1.2.2.4.2.Chuyển đổi thông qua tiền tố SI
+
+Các tiền tố SI cho biết bội số hoặc ước số của đơn vị. **Ví dụ** 1km = $$\large10^{3}$$m thì 2.4km = 2.4 $$\large\times 10^{3}$$m = 2400m, tương tự với việc chuyển đổi `mm -> m` và ta biết 1mm = $$\large10^{-3}$$m nên ta có 8mm = 8 $$\large\times10^{-3}$$m = 0.008m. Tuy nhiên, ta có thể viết trực tiếp bằng hệ số chuyển đổi như sau :
+
+<div align="center">
+
+$$\Large8mm \times \frac{10^{-3}m}{1mm} = 8\times10^{-3}m$$
+
+</div>
