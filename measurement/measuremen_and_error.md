@@ -15,6 +15,7 @@
 	  - [1.2.2.4.Chuyển đổi đơn vị](#1224chuyển-đổi-đơn-vị)
 	  - [1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại](#12241chuyển-đổi-giữa-các-đơn-vị-cùng-loại)
 	  - [1.2.2.4.2.Chuyển đổi thông qua tiền tố SI](#12242chuyển-đổi-thông-qua-tiền-tố-si)
+	  - [1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa](#12243chuyển-đổi-đơn-vị-có-lũy-thừa)
 	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
@@ -254,3 +255,7 @@ Các tiền tố SI cho biết bội số hoặc ước số của đơn vị. *
 $$\Large8mm \times \frac{10^{-3}m}{1mm} = 8\times10^{-3}m$$
 
 </div>
+
+Đơn vị $$\large\mathrm{mm}$$ triệt tiêu, còn lại $$\large\mathrm{m}$$. Đây là cách đặc biệt hữu ích khi thực hiện các phép tính có nhiều đơn vị.
+
+#### 1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa
