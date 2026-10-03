@@ -12,7 +12,8 @@
 	  - [1.2.2.1.Bảy đơn vị cơ bản của hệ SI](#1221bảy-đơn-vị-cơ-bản-của-hệ-si)
 	  - [1.2.2.2.Đơn vị dẫn xuất](#1222đơn-vị-dẫn-xuất)
 	  - [1.2.2.3.Tiền tố SI](#1223tiền-tố-si)
-	  - 1.2.2.4.Chuyển đổi đơn vị
+	  - [1.2.2.4.Chuyển đổi đơn vị](#1224chuyển-đổi-đơn-vị)
+	  - [1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại](#12241chuyển-đổi-giữa-các-đơn-vị-cùng-loại)
 	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
@@ -136,7 +137,7 @@ Hệ đơn vị SI (International System of Units) là hệ thống đơn vị �
 </div>
 
 > [!IMPORTANT]
-> Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị số là biễu diễn các số nguyên ví dụ `1,2,3,...,N` ko chỉ nằm ở số nguyên còn có thể được thực hiện ở, căn bậc, số mũ, phân số v.v.. . **Ví dụ:** `I = 4.2A`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị ampere, `4.2A` là giá trị của đại lượng được biểu diễn dưới dạng số + đơn vị
+> Cần phân biệt giữa Đại lượng dẫn xuất $$\large\neq$$ Đơn vị dẫn xuất $$\large\neq$$ giá trị số , đại lượng là thứ cần xác định còn đơn vị là cách biểu diễn giá trị của nó, còn giá trị bằng số là phần số cho biết độ lớn của đại lượng khi đại lượng được biểu diễn bằng một đơn vị đã chọn. Giá trị này có thể là số nguyên, số thập phân, phân số, số âm, số mũ, căn thức,.... **Ví dụ:** `I = 4.2A`, trong đó `4.2` là biễu diễn số còn `A` là đơn vị ampere, `4.2A` là giá trị của đại lượng được biểu diễn dưới dạng số + đơn vị
 
 #### 1.2.2.2.Đơn vị dẫn xuất
 
@@ -156,7 +157,7 @@ $$\Large v=\frac{m}{s} = m/s$$
 
 </div>
 
-Ta thấy và nhìn kỹ ký hiệu $$\large v$$, ký hiệu này nghĩa là định nghĩa công thức tính $$\large v$$ trong đơn vị SI thay vì ký hiệu đơn vị. Cho thêm vài ví dụ ta có:
+Ta thấy sự khác biệt của nó sau khi biểu diễn SI. Cho thêm vài ví dụ ta có:
 
 <div align="center">
 
@@ -217,3 +218,13 @@ Trong thực tế, các đại lượng có thể lớn hoặc nhỏ hơn đơn 
 | pico    |       p | $$\large10^{-12}$$ |
 
 </div>
+
+#### 1.2.2.4.Chuyển đổi đơn vị
+
+Chuyển đổi đơn vị là quá trình biểu diễn cùng một đại lượng vật lý bằng một đơn vị khác mà không làm thay đổi giá trị của đại lượng đó. **Ví dụ**, chuyển đổi đơn vị `m` sang `cm` ta có `1m = 100cm`. Điều kiện của chuyển đổi đơn vị là, đại lượng vật lý không đổi, giá trị bằng số thay đổi theo đơn vị​
+
+#### 1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại
+
+Muốn chuyển đổi giữa hai đơn vị cùng loại, cần xác định hệ số chuyển đổi giữa chúng. Ví dụ, 1km = 1000m do đó 3.5km = 3.5 x 1000 = 3500m ngược lại chuyển `km -> m` ta thay đổi phép nhân thành phép chia (nguyên lý toán học căn bản được vận dụng nhiều ở giải phương trình) cho ví dụ chuyển 1232m sang km ta xét $$\large1232m = \frac{1232}{1000} = 1.232km$$
+
+Một cách tổng quát, nếu $$\large1A = kB$$ thì $$\large xA = xkB$$ và $$\large yB = \frac{y}{k}A$$. Trong đó $$\large A$$ và $$\large B$$ là hai đơn vị của cùng một đại lượng.
