@@ -258,4 +258,4 @@ $$\Large8mm \times \frac{10^{-3}m}{1mm} = 8\times10^{-3}m$$
 
 #### 1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa
 
-Khi đơn vị xuất hiện trong một đại lượng có lũy thừa, hệ số chuyển đổi cũng phải được nâng lên cùng lũy thừa. **Ví dụ**, ta có $$\large1m = 100cm = 10^{2}cm$$,
+Khi đơn vị xuất hiện trong một đại lượng có lũy thừa, hệ số chuyển đổi cũng phải được nâng lên cùng lũy thừa. **Ví dụ**, ta có $$\large1m = 100cm = 10^{2}cm$$, do đó $$\large1m^{2}=(10^{2}cm)^{2}=10^{4}cm^{2}$$ và $$\large1m^{3}=(10^{2}cm)^{3}=10^{6}cm^{3}$$
