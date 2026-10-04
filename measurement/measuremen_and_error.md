@@ -17,7 +17,7 @@
 	  - [1.2.2.4.2.Chuyển đổi thông qua tiền tố SI](#12242chuyển-đổi-thông-qua-tiền-tố-si)
 	  - [1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa](#12243chuyển-đổi-đơn-vị-có-lũy-thừa)
 	  - [1.2.2.4.4.Kiểm tra kết quả bằng thứ nguyên](#12244kiểm-tra-kết-quả-bằng-thứ-nguyên)
-	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
+	  - [1.2.2.5.Chuyển đổi đơn vị dẫn xuất](#1225chuyển-đổi-đơn-vị-dẫn-xuất)
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
 	- 1.4.Độ chính xác, độ chụm và độ phân giải
@@ -270,3 +270,18 @@ Khi chuyển đổi hoặc tính toán với nhiều đơn vị, có thể kiể
 $$\Large72\frac{km}{h}\times\frac{1000m}{1km}\times\frac{1h}{3600s}$$
 
 </div>
+
+Các đơn vị $$\large\mathrm{km}$$ và $$\large\mathrm{h}$$ triệt tiêu, nghĩa là gạch các đơn vị có `km/h` đi ta còn :
+
+<div align="center">
+
+$$\Large=72\times\frac{1000}{3600}m/s=20m/s$$
+
+$$\Large\Rightarrow\boxed{72km/h = 20m/s}$$
+
+</div>
+
+Điều này cho thấy chuyển đổi đơn vị không chỉ là thay đổi con số, đơn vị phải được xử lý như một phần của biểu thức toán học.
+
+> [!NOTE]
+> **Lưu ý:** Với các đại lượng dẫn xuất như vận tốc, gia tốc, lực hoặc công, cần chuyển đổi toàn bộ các đơn vị cấu thành, thay vì chỉ nhìn vào một đơn vị riêng lẻ. Nội dung này sẽ liên kết trực tiếp với phần [1.2.2.5.Chuyển đổi đơn vị dẫn xuất](#1225chuyển-đổi-đơn-vị-dẫn-xuất)
