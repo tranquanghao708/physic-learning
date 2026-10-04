@@ -285,3 +285,27 @@ $$\Large\Rightarrow\boxed{72km/h = 20m/s}$$
 
 > [!NOTE]
 > **Lưu ý:** Với các đại lượng dẫn xuất như vận tốc, gia tốc, lực hoặc công, cần chuyển đổi toàn bộ các đơn vị cấu thành, thay vì chỉ nhìn vào một đơn vị riêng lẻ. Nội dung này sẽ liên kết trực tiếp với phần [1.2.2.5.Chuyển đổi đơn vị dẫn xuất](#1225chuyển-đổi-đơn-vị-dẫn-xuất)
+
+#### 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
+
+Đơn vị dẫn xuất là những đơn vị được xây dựng từ các đơn vị cơ bản thông qua một công thức toán học. Vì vậy, khi chuyển đổi một đơn vị dẫn xuất, cần chuyển đổi các đơn vị thành phần theo đúng công thức của đơn vị đó. **Cho ví dụ**, vận tốc được xác định bởi $$\large v = \frac{s}{t}$$, trong hệ SI đơn vị $$\large s$$ được đo bằng mét và $$\large t$$ là thời gian tính bằng giây, nên đơn vị đo vận tốc là $$\large m/s$$
+
+Nếu muốn chuyển từ `km/h` sang `m/s`, phải đồng thời chuyển đổi cả kilomet và giờ chẳng hạn như $$\large1km = 10^{3}m$$, $$\large1h = 3600s$$, do đó ta xét :
+
+<div align="center">
+
+$$\Large1\frac{km}{h}=\frac{10^{3}m}{3600s}=\frac{5}{18}m/s$$
+
+$$\Large\Rightarrow\boxed{1km/h=\frac{5}{18}m/s}$$
+
+$$\Large\Rightarrow\boxed{1m/s = 3.6km/h}$$
+
+</div>
+
+Cho ví dụ :
+
+<div align="center">
+
+$$\Large72km/h = 72\times\frac{5}{18}m/s = 20m/s$$
+
+</div>
