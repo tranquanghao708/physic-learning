@@ -16,6 +16,7 @@
 	  - [1.2.2.4.1.Chuyển đổi giữa các đơn vị cùng loại](#12241chuyển-đổi-giữa-các-đơn-vị-cùng-loại)
 	  - [1.2.2.4.2.Chuyển đổi thông qua tiền tố SI](#12242chuyển-đổi-thông-qua-tiền-tố-si)
 	  - [1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa](#12243chuyển-đổi-đơn-vị-có-lũy-thừa)
+	  - [1.2.2.4.4.Kiểm tra kết quả bằng thứ nguyên](#12244kiểm-tra-kết-quả-bằng-thứ-nguyên)
 	  - 1.2.2.5.Chuyển đổi đơn vị dẫn xuất
 	  - 1.2.3.Phân tích thứ nguyên và đơn vị
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
@@ -258,4 +259,14 @@ $$\Large8mm \times \frac{10^{-3}m}{1mm} = 8\times10^{-3}m$$
 
 #### 1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa
 
-Khi đơn vị xuất hiện trong một đại lượng có lũy thừa, hệ số chuyển đổi cũng phải được nâng lên cùng lũy thừa. **Ví dụ**, ta có $$\large1m = 100cm = 10^{2}cm$$, do đó $$\large1m^{2}=(10^{2}cm)^{2}=10^{4}cm^{2}$$ và $$\large1m^{3}=(10^{2}cm)^{3}=10^{6}cm^{3}$$
+Khi đơn vị xuất hiện trong một đại lượng có lũy thừa, hệ số chuyển đổi cũng phải được nâng lên cùng lũy thừa. **Ví dụ**, ta có $$\large1m = 100cm = 10^{2}cm$$, do đó $$\large1m^{2}=(10^{2}cm)^{2}=10^{4}cm^{2}$$ và $$\large1m^{3}=(10^{2}cm)^{3}=10^{6}cm^{3}$$. Vì thế, $$\large1m^{2} = 10^{4}cm^{2}$$ và $$\large1m^{3} = 10^{6}cm^{3}$$ ko được áp dụng trực tiếp $$\large1m = 100cm$$ cho $$\large1m^{2}$$ hay $$\large1m^{3}$$
+
+#### 1.2.2.4.4.Kiểm tra kết quả bằng thứ nguyên
+
+Khi chuyển đổi hoặc tính toán với nhiều đơn vị, có thể kiểm tra kết quả bằng cách theo dõi đơn vị trong từng bước **ví dụ** đổi `km/h` sang `m/s` ta cho `72 km/h` bây giờ nhiệm vụ của ta là đổi chúng sang `m/s` ta xét :
+
+<div align="center">
+
+$$\Large72\frac{km}{h}\times\frac{1000m}{1km}\times\frac{1h}{3600s}$$
+
+</div>
