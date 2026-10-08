@@ -19,17 +19,18 @@
 	  - [1.2.2.4.4.Kiểm tra kết quả bằng thứ nguyên](#12244kiểm-tra-kết-quả-bằng-thứ-nguyên)
 	  - [1.2.2.5.Chuyển đổi đơn vị dẫn xuất](#1225chuyển-đổi-đơn-vị-dẫn-xuất)
 	  - [1.2.2.1.6.Chuyển đổi đơn vị có lũy thừa](#12216chuyển-đổi-đơn-vị-có-lũy-thừa)
+	  - [1.2.2.1.7.Chuyển đổi các đơn vị dẫn xuất có tên riêng](#12217chuyển-đổi-các-đơn-vị-dẫn-xuất-có-tên-riêng)
 	  - [1.2.3.Phân tích thứ nguyên và đơn vị](#123phân-tích-thứ-nguyên-và-đơn-vị)
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
 	- 1.4.Độ chính xác, độ chụm và độ phân giải
 - [2.Sai số và độ không đảm bảo đo](#2sai-số-và-độ-không-đảm-bảo-đo)
 	- [2.1.Khái niệm sai số phép đo](#21khái-niệm-sai-số-phép-đo)
 	- [2.2.Sai số hệ thống](#22sai-số-hệ-thống)
-	  - [2.2.1.Sai số do dụng cụ đo](#221sai-số-do-dụng-cụ-đo)
-	  - [2.2.2.Sai số do phương pháp đo](#222sai-số-do-phương-pháp-đo)
-	  - 2.2.3.Sai số do môi trường và người đo
-	- 2.3.Sai số ngẫu nhiên
-	- 2.4.Độ không đảm bảo đo
+	  - [2.1.1.Sai số do dụng cụ đo](#211sai-số-do-dụng-cụ-đo)
+	- [2.3.Sai số ngẫu nhiên](#23sai-số-ngẫu-nhiên)
+	  - [2.3.1.Sai số do phương pháp đo](#231sai-số-do-phương-pháp-đo)
+	  - [2.3.2.Sai số do môi trường và người đo](#232sai-số-do-môi-trường-và-người-đo)
+	- [2.4.Độ không đảm bảo đo](#24độ-không-đảm-bảo-đo)
 	  - 2.4.1.Phân biệt sai số và độ không đảm bảo đo
 	  - 2.4.2.Độ không đảm bảo loại A và loại B
 	- 2.5.Hiệu chuẩn và kiểm định dụng cụ đo
@@ -331,10 +332,50 @@ $$\Large 1\frac{km}{h^{2}} = \frac{10^{3}m}{(3600s)^{2}} = \frac{10^{3}}{3600^{2
 
 Quan trọng là $$\large h^{2}$$ phải được chuyển đổi thành $$\large s^{2}$$, chứ ko thể chỉ thay $$\large h$$ thành $$\large s$$
 
+#### 1.2.2.1.7.Chuyển đổi các đơn vị dẫn xuất có tên riêng
+
 #### 1.2.3.Phân tích thứ nguyên và đơn vị
 
 # 2.Sai số và độ không đảm bảo đo
 ## 2.1.Khái niệm sai số phép đo
+
+Trong thực tế, không có phép đo nào cho ta giá trị hoàn toàn chính xác. Kết quả đo luôn có một mức độ sai lệch nhất định so với giá trị thực của đại lượng cần đo. Độ sai lệch đó được gọi là sai số phép đo. Sai số của phép đó có ký hiệu là $$\large\Delta x$$
+
 ## 2.2.Sai số hệ thống
+
+Sai số hệ thống là loại sai số làm cho kết quả đo bị lệch theo một xu hướng nhất định so với giá trị thực của đại lượng cần đo. Sai số hệ thống thường có tính chất ổn định hoặc có quy luật, nghĩa là khi thực hiện phép đo nhiều lần trong cùng một điều kiện, sai số thường tiếp tục làm kết quả lệch theo cùng một hướng hoặc theo một quy luật xác định. Sai số hệ thống có thể xuất phát từ nhiều nguyên nhân, chẳng hạn như:
+
+- 1. Đặc điểm và giới hạn của dụng cụ đo.
+- 2. Phương pháp đo được sử dụng.
+- 3. Điều kiện môi trường hoặc cách bố trí thí nghiệm.
+
 ### 2.2.1.Sai số do dụng cụ đo
-### 2.2.2.Sai số do phương pháp đo
+
+Sai số do dụng cụ đo là sai số phát sinh do những hạn chế hoặc sai lệch của chính dụng cụ được sử dụng để đo. **Ví dụ**, một chiếc thước có vạch chia không hoàn toàn chính xác hoặc điểm 0 của thước bị lệch sẽ làm cho các kết quả đo bị lệch theo một xu hướng nhất định. Một dụng cụ đo có thể có sai số do:
+
+- 1. Giới hạn độ phân giải của dụng cụ.
+- 2. Điểm 0 bị lệch.
+- 3. Dụng cụ bị hao mòn hoặc biến dạng.
+- 4. Độ chính xác của dụng cụ bị giới hạn.
+
+## 2.3.Sai số ngẫu nhiên
+
+Sai số ngẫu nhiên là loại sai số làm cho kết quả của các lần đo lặp lại dao động không theo một quy luật cố định xung quanh một giá trị trung tâm. Khác với sai số hệ thống, sai số ngẫu nhiên không làm kết quả đo lệch cố định theo một hướng. Khi thực hiện cùng một phép đo nhiều lần trong cùng điều kiện, kết quả có thể lúc lớn hơn, lúc nhỏ hơn giá trị trung tâm. **Ví dụ**, đo nhiều lần chiều dài của một vật và thu được:
+
+<div align="center">
+
+$$\Large 10,1;\quad 10,0;\quad 10,2;\quad 9,9;\quad 10,1\text{ cm} $$
+
+</div>
+
+Các kết quả không giống hệt nhau mà dao động quanh khoảng $$\large10,0\text{–}10,1 cm$$. Sự dao động này có thể xuất hiện do những biến động nhỏ và khó kiểm soát hoàn toàn trong quá trình đo.
+
+### 2.3.1.Sai số do phương pháp đo
+
+Sai số do phương pháp đo là sai số phát sinh do bản thân phương pháp hoặc cách bố trí phép đo khiến kết quả đo bị lệch so với giá trị thực. **Ví dụ**, khi dùng thước để đo đường kính của một vật nhưng đặt thước không vuông góc với chiều cần đo, kết quả có thể bị lệch một cách có hệ thống. Sai số này không nhất thiết xuất phát từ dụng cụ đo mà có thể xuất phát từ cách thức tiến hành phép đo.
+
+### 2.3.2.Sai số do môi trường và người đo
+
+Là do môi trường **ví dụ** như đo nhưng môi trường có gió, hay nhiều người qua lại, hay một cái gì đó gây nên sai số. Là do con người, **Ví dụ** như ko tập trung đo, run tay khi đo, hay bất kỳ cái gì xuất phát từ người đo
+
+## 2.4.Độ không đảm bảo đo
