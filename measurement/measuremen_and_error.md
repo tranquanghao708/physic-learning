@@ -379,3 +379,5 @@ Sai số do phương pháp đo là sai số phát sinh do bản thân phương p
 Là do môi trường **ví dụ** như đo nhưng môi trường có gió, hay nhiều người qua lại, hay một cái gì đó gây nên sai số. Là do con người, **Ví dụ** như ko tập trung đo, run tay khi đo, hay bất kỳ cái gì xuất phát từ người đo
 
 ## 2.4.Độ không đảm bảo đo
+
+Độ không đảm bảo đo là một đại lượng dùng để đánh giá mức độ không chắc chắn của kết quả đo. Nó cho biết khoảng biến thiên hợp lý mà trong đó giá trị của đại lượng cần đo có khả năng nằm, dựa trên thông tin thu được từ phép đo. Độ ko đảm bảo đo có ký hiệu là $$\large u(x)$$ hoặc có thể dùng ký hiệu của sai số phép đo là $$\large\Delta x$$ (nếu trong các tài liệu phổ thông cũ)
