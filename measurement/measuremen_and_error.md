@@ -18,14 +18,15 @@
 	  - [1.2.2.4.3.Chuyển đổi đơn vị có lũy thừa](#12243chuyển-đổi-đơn-vị-có-lũy-thừa)
 	  - [1.2.2.4.4.Kiểm tra kết quả bằng thứ nguyên](#12244kiểm-tra-kết-quả-bằng-thứ-nguyên)
 	  - [1.2.2.5.Chuyển đổi đơn vị dẫn xuất](#1225chuyển-đổi-đơn-vị-dẫn-xuất)
-	  - 1.2.3.Phân tích thứ nguyên và đơn vị
+	  - [1.2.2.1.6.Chuyển đổi đơn vị có lũy thừa](#12216chuyển-đổi-đơn-vị-có-lũy-thừa)
+	  - [1.2.3.Phân tích thứ nguyên và đơn vị](#123phân-tích-thứ-nguyên-và-đơn-vị)
 	- 1.3.Giá trị thực, giá trị đo và giá trị tham chiếu
 	- 1.4.Độ chính xác, độ chụm và độ phân giải
-- 2.Sai số và độ không đảm bảo đo
-	- 2.1.Khái niệm sai số phép đo
-	- 2.2.Sai số hệ thống
-	  - 2.2.1.Sai số do dụng cụ đo
-	  - 2.2.2.Sai số do phương pháp đo
+- [2.Sai số và độ không đảm bảo đo](#2sai-số-và-độ-không-đảm-bảo-đo)
+	- [2.1.Khái niệm sai số phép đo](#21khái-niệm-sai-số-phép-đo)
+	- [2.2.Sai số hệ thống](#22sai-số-hệ-thống)
+	  - [2.2.1.Sai số do dụng cụ đo](#221sai-số-do-dụng-cụ-đo)
+	  - [2.2.2.Sai số do phương pháp đo](#222sai-số-do-phương-pháp-đo)
 	  - 2.2.3.Sai số do môi trường và người đo
 	- 2.3.Sai số ngẫu nhiên
 	- 2.4.Độ không đảm bảo đo
@@ -309,3 +310,31 @@ Cho ví dụ :
 $$\Large72km/h = 72\times\frac{5}{18}m/s = 20m/s$$
 
 </div>
+
+#### 1.2.2.1.6.Chuyển đổi đơn vị có lũy thừa
+
+Đối với các đơn vị dẫn xuất chứa lũy thừa, hệ số chuyển đổi cũng phải được nâng lên cùng lũy thừa. **Ví dụ** gia tốc có :
+
+<div align="center">
+
+$$\Large a = \frac{\Delta v}{\Delta t}$$
+
+</div>
+
+Nhưng nó có đơn vị SI là $$\large m/s^{2}$$, nhưng nếu ta muốn chuyển $$\large km/h^{2}$$ sang $$\large m/s^{2}$$ ta đổi $$\large 1km = 10^{3}m$$ và $$\large 1h = 3600s$$ nên ta xét :
+
+<div align="center">
+
+$$\Large 1\frac{km}{h^{2}} = \frac{10^{3}m}{(3600s)^{2}} = \frac{10^{3}}{3600^{2}}m/s^{2}$$
+
+</div>
+
+Quan trọng là $$\large h^{2}$$ phải được chuyển đổi thành $$\large s^{2}$$, chứ ko thể chỉ thay $$\large h$$ thành $$\large s$$
+
+#### 1.2.3.Phân tích thứ nguyên và đơn vị
+
+# 2.Sai số và độ không đảm bảo đo
+## 2.1.Khái niệm sai số phép đo
+## 2.2.Sai số hệ thống
+### 2.2.1.Sai số do dụng cụ đo
+### 2.2.2.Sai số do phương pháp đo
