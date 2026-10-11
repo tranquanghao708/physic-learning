@@ -17,7 +17,7 @@
 <tr>
 <td>
 	<kbd>
-	<img src="https://raw.githubusercontent.com/tranquanghao708/physic-learning/blob/main/electric-field/image/image0.svg" alt="mô tả điện trường">
+	<img src="https://raw.githubusercontent.com/tranquanghao708/physic-learning/refs/heads/main/electric-field/image/image0.svg" alt="mô tả điện trường">
 	</kbd>
 </td>
 <td>
