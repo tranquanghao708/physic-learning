@@ -17,7 +17,7 @@
 <tr>
 <td>
 	<kbd>
-	<img src="image/image0.jpg">
+	<img src="./image/image0.svg">
 	</kbd>
 </td>
 <td>
