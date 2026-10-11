@@ -17,7 +17,7 @@
 <tr>
 <td>
 	<kbd>
-	<img src="./image/image0.svg">
+	<img src="./image/image0.svg" alt="mô tả điện trường">
 	</kbd>
 </td>
 <td>
