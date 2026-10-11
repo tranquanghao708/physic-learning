@@ -17,7 +17,7 @@
 <tr>
 <td>
 	<kbd>
-	<img src="./image/image0.svg" alt="mô tả điện trường" width="1500px">
+	<img src="./image/image0.svg" alt="mô tả điện trường" width="2500px">
 	</kbd>
 </td>
 <td>
