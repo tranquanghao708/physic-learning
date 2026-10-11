@@ -59,3 +59,4 @@ chúng ta cần phải hiểu 3 vấn đề để hiểu bản chất :
 
 > [!NOTE]
 > **lưu ý:** nếu $$\large q > 0$$ thì lực điện cùng chiều $$\large\vec{E}$$, nếu $$\large q < 0$$ thì lực điện ngược chiều $$\large\vec{E}$$
+- 3. **Điện trường có tính chất vật lý, không phải một công cụ toán học thuần túy:** Trong điện từ học cổ điển, điện trường là một đại lượng vật lý có thể được đo gián tiếp thông qua lực điện tác dụng lên điện tích thử. Nó có thể thay đổi theo thời gian, mang năng lượng và tương tác với vật chất. Điện trường cũng không cần có một môi trường vật chất như không khí để tồn tại. Nó có thể tồn tại trong chân không.
