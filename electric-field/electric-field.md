@@ -13,7 +13,20 @@
 
 ## 1.Điện trường
 
+<table>
+<tr>
+<td>
+	<kbd>
+	<img src="image/image0.jpg">
+	</kbd>
+</td>
+<td>
+
 Điện trường là một dạng vật chất tồn tại xung quanh điện tích và có khả năng tác dụng lực điện lên các điện tích khác đặt trong nó. **Ví dụ**, đặt một điện tích dương $$\large Q$$ trong không gian. Khi đưa một điện tích thử $$\large q$$ đến gần $$\large Q$$, điện tích thử có thể chịu lực đẩy hoặc lực hút tùy theo dấu của hai điện tích.
+
+</td>
+</tr>
+</table>
 
 > [!IMPORTANT]
 > **Điều quan trọng là:** ngay cả khi chưa có điện tích thử, điện trường vẫn có thể tồn tại xung quanh điện tích nguồn $$\large Q$$. Điện tích thử chỉ giúp chúng ta phát hiện và khảo sát điện trường đó.
