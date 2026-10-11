@@ -57,5 +57,5 @@ chúng ta cần phải hiểu 3 vấn đề để hiểu bản chất :
   </tr>
   </table>
 
-  > [!NOTE]
-  > **lưu ý:** nếu $$\large q > 0$$ thì lực điện cùng chiều $$\large\vec{E}$$, nếu $$\large q < 0$$ thì lực điện ngược chiều $$\large\vec{E}$$
+> [!NOTE]
+> **lưu ý:** nếu $$\large q > 0$$ thì lực điện cùng chiều $$\large\vec{E}$$, nếu $$\large q < 0$$ thì lực điện ngược chiều $$\large\vec{E}$$
