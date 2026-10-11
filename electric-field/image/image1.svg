@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" style="background: #0d1117; border-radius: 12px; font-family: sans-serif;">
+  <defs>
+    <!-- Hiệu ứng phát sáng -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Độ dốc Q dương -->
+    <radialGradient id="grad-Q" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff85a1"/>
+      <stop offset="50%" stop-color="#ff3366"/>
+      <stop offset="100%" stop-color="#b3003b"/>
+    </radialGradient>
+
+    <!-- Độ dốc q dương -->
+    <radialGradient id="grad-q" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#a3e635"/>
+      <stop offset="50%" stop-color="#65a30d"/>
+      <stop offset="100%" stop-color="#3f6212"/>
+    </radialGradient>
+
+    <!-- Mũi tên lực F -->
+    <marker id="arrow-F" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/>
+    </marker>
+
+    <!-- Mũi tên điện trường E -->
+    <marker id="arrow-E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f472b6"/>
+    </marker>
+
+    <!-- Mũi tên đường sức -->
+    <marker id="arrow-field" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f9a8d4"/>
+    </marker>
+  </defs>
+
+  <!-- Lưới nền -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <path d="M0 100 H800 M0 200 H800 M0 300 H800 M0 400 H800 M0 500 H800"/>
+    <path d="M100 0 V600 M200 0 V600 M300 0 V600 M400 0 V600 M500 0 V600 M600 0 V600 M700 0 V600"/>
+  </g>
+
+  <!-- Khung -->
+  <rect x="35" y="48" width="730" height="505" rx="12" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Tiêu đề -->
+  <text x="400" y="30" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="bold">
+    ĐIỆN TRƯỜNG LÀ MÔI TRƯỜNG TRUYỀN TƯƠNG TÁC ĐIỆN
+  </text>
+
+  <!-- Phụ đề -->
+  <text x="400" y="575" text-anchor="middle" fill="#8b949e" font-size="12.5">
+    Q tạo điện trường → q nằm trong điện trường → chịu lực F = q·E (E là cường độ điện trường tại vị trí q)
+  </text>
+
+  <!-- Vùng chính -->
+  <g transform="translate(380, 300)">
+
+    <!-- Đường sức điện trường của Q (hướng ra ngoài) -->
+    <g opacity="0.45" stroke="#f9a8d4" stroke-width="1.5" fill="none">
+      <line x1="50" y1="0" x2="210" y2="0" marker-end="url(#arrow-field)"/>
+      <line x1="-50" y1="0" x2="-210" y2="0" marker-end="url(#arrow-field)"/>
+      <line x1="0" y1="50" x2="0" y2="210" marker-end="url(#arrow-field)"/>
+      <line x1="0" y1="-50" x2="0" y2="-210" marker-end="url(#arrow-field)"/>
+      <line x1="35" y1="35" x2="148" y2="148" marker-end="url(#arrow-field)"/>
+      <line x1="-35" y1="35" x2="-148" y2="148" marker-end="url(#arrow-field)"/>
+      <line x1="35" y1="-35" x2="148" y2="-148" marker-end="url(#arrow-field)"/>
+      <line x1="-35" y1="-35" x2="-148" y2="-148" marker-end="url(#arrow-field)"/>
+    </g>
+
+    <!-- Điện tích nguồn Q -->
+    <g filter="url(#glow)">
+      <circle cx="0" cy="0" r="44" fill="url(#grad-Q)"/>
+      <text x="0" y="12" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="bold">+</text>
+      <text x="0" y="-60" text-anchor="middle" fill="#ff3366" font-size="18" font-weight="bold">Q</text>
+    </g>
+
+    <!-- Nhóm điện tích q + các vector (di chuyển) -->
+    <g filter="url(#glow)">
+      <!-- Animation vị trí q: xa → gần → xa -->
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="280 0; 130 0; 280 0"
+        keyTimes="0; 0.5; 1"
+        dur="7s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+
+      <!-- Hình tròn q -->
+      <circle cx="0" cy="0" r="22" fill="url(#grad-q)"/>
+      <text x="0" y="7" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="bold">+</text>
+      <text x="0" y="-33" text-anchor="middle" fill="#a3e635" font-size="15" font-weight="bold">q</text>
+
+      <!-- Vector điện trường E tại vị trí q (hướng ra ngoài) -->
+      <g>
+        <line x1="26" y1="-18" x2="90" y2="-18"
+              stroke="#f472b6" stroke-width="3.5" marker-end="url(#arrow-E)">
+          <animate attributeName="x2" values="70; 120; 70" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"
+                   calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+        </line>
+        <!-- Nhãn E -->
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="55 -18; 90 -18; 55 -18" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"
+            calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+          <rect x="-18" y="-22" width="36" height="20" rx="4" fill="#0d1117" opacity="0.8"/>
+          <text x="0" y="-6" text-anchor="middle" fill="#f472b6" font-size="14" font-weight="bold">E</text>
+        </g>
+      </g>
+
+      <!-- Vector lực F (cùng chiều E, dài hơn khi gần) -->
+      <g>
+        <line x1="26" y1="18" x2="95" y2="18"
+              stroke="#38bdf8" stroke-width="4.2" marker-end="url(#arrow-F)">
+          <animate attributeName="x2" values="75; 145; 75" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"
+                   calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+        </line>
+        <!-- Nhãn F -->
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="58 18; 105 18; 58 18" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"
+            calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+          <rect x="-22" y="-8" width="44" height="28" rx="5" fill="#0d1117" opacity="0.8"/>
+          <text x="0" y="5" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="bold">F</text>
+          <text x="0" y="17" text-anchor="middle" fill="#7dd3fc" font-size="10">= q·E</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Đoạn thẳng khoảng cách r + nhãn r (động) -->
+    <g>
+      <!-- Đường r (từ mép Q đến mép q) -->
+      <line x1="48" y1="0" x2="250" y2="0" stroke="#94a3b8" stroke-width="1.8" stroke-dasharray="6 4" opacity="0.7">
+        <animate attributeName="x2" values="250; 100; 250" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+      </line>
+
+      <!-- Nhãn r di chuyển theo đoạn thẳng -->
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+          values="150 -25; 80 -25; 150 -25" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"
+          calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+        <rect x="-22" y="-14" width="44" height="22" rx="5" fill="#0d1117" opacity="0.85"/>
+        <text x="0" y="3" text-anchor="middle" fill="#e2e8f0" font-size="15" font-weight="bold">r</text>
+      </g>
+    </g>
+
+    <!-- Chú thích góc trái -->
+    <g transform="translate(-355, -230)">
+      <rect x="0" y="0" width="210" height="130" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+      
+      <circle cx="26" cy="26" r="11" fill="url(#grad-Q)"/>
+      <text x="48" y="30" fill="#c9d1d9" font-size="13">Q tạo ra điện trường</text>
+      
+      <circle cx="26" cy="56" r="11" fill="url(#grad-q)"/>
+      <text x="48" y="60" fill="#c9d1d9" font-size="13">q nằm trong điện trường</text>
+      
+      <line x1="15" y1="85" x2="37" y2="85" stroke="#f472b6" stroke-width="2.5" marker-end="url(#arrow-E)"/>
+      <text x="48" y="89" fill="#c9d1d9" font-size="13">E : Cường độ điện trường</text>
+      
+      <line x1="15" y1="112" x2="37" y2="112" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow-F)"/>
+      <text x="48" y="116" fill="#c9d1d9" font-size="13">F = q·E (lực điện)</text>
+    </g>
+  </g>
+</svg>
