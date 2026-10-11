@@ -2,8 +2,8 @@
 
 **index**
 
-- 1.Điện trường
-	- 1.1.Bản chất vật lý của điện trường
+- [1.Điện trường](#1điện-trường)
+	- [1.1.Bản chất vật lý của điện trường](#11bản-chất-vật-lý-của-điện-trường)
 	- 1.2.Định nghĩa điện trường
 	- 1.3.Vectơ cường độ điện trường
 	- 1.4.Quan hệ giữa lực điện và điện trường
@@ -30,3 +30,9 @@
 
 > [!IMPORTANT]
 > **Điều quan trọng là:** ngay cả khi chưa có điện tích thử, điện trường vẫn có thể tồn tại xung quanh điện tích nguồn $$\large Q$$. Điện tích thử chỉ giúp chúng ta phát hiện và khảo sát điện trường đó.
+
+### 1.1.Bản chất vật lý của điện trường
+
+chúng ta cần phải hiểu 3 vấn đề để hiểu bản chất :
+- 1. **điện trường ko đơn thuần là một vùng không gian:** Không gian xung quanh điện tích không chỉ là khoảng trống hình học. Điện tích nguồn làm xuất hiện một trạng thái vật lý có khả năng gây ra tương tác điện lên những điện tích khác. Trong vật lý cổ điển, ta mô tả trạng thái đó bằng đại lượng vectơ cường độ điện trường $$\large\vec{E}$$
+- 2. **Điện trường là môi trường truyền tương tác điện:**
