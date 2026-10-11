@@ -52,7 +52,7 @@ chúng ta cần phải hiểu 3 vấn đề để hiểu bản chất :
   </td>
 
   <td>
-	<img src="./image/image1.svg" alt="mô phỏng giả sử trên">
+	<img src="./image/image1.svg" alt="mô phỏng giả sử trên" width="3500px">
   </td>
   </tr>
   </table>
