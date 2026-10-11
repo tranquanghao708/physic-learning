@@ -17,7 +17,7 @@
 <tr>
 <td>
 	<kbd>
-	<img src="https://raw.githubusercontent.com/tranquanghao708/physic-learning/refs/heads/main/electric-field/image/image0.svg" alt="mô tả điện trường">
+	<img src="https://raw.githubusercontent.com/tranquanghao708/physic-learning/refs/heads/main/electric-field/image/image0.svg" alt="mô tả điện trường" width="200px">
 	</kbd>
 </td>
 <td>
@@ -30,8 +30,6 @@
 
 > [!IMPORTANT]
 > **Điều quan trọng là:** ngay cả khi chưa có điện tích thử, điện trường vẫn có thể tồn tại xung quanh điện tích nguồn $$\large Q$$. Điện tích thử chỉ giúp chúng ta phát hiện và khảo sát điện trường đó.
-
-<img src="https://raw.githubusercontent.com/tranquanghao708/physic-learning/refs/heads/main/electric-field/image/image0.svg" alt="mô tả điện trường">
 
 ### 1.1.Bản chất vật lý của điện trường
 
