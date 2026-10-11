@@ -4,7 +4,8 @@
 
 - [1.Điện trường](#1điện-trường)
 	- [1.1.Bản chất vật lý của điện trường](#11bản-chất-vật-lý-của-điện-trường)
-	- 1.2.Định nghĩa điện trường
+	- [1.2.Định nghĩa điện trường](#12định-nghĩa-điện-trường)
+	   - [1.2.1.Biểu diễn định lượng điện trường](#121biểu-diễn-định-lượng-điện-trường)
 	- 1.3.Vectơ cường độ điện trường
 	- 1.4.Quan hệ giữa lực điện và điện trường
 	- 1.5.Điện trường của điện tích điểm
@@ -60,3 +61,14 @@ chúng ta cần phải hiểu 3 vấn đề để hiểu bản chất :
 > [!NOTE]
 > **lưu ý:** nếu $$\large q > 0$$ thì lực điện cùng chiều $$\large\vec{E}$$, nếu $$\large q < 0$$ thì lực điện ngược chiều $$\large\vec{E}$$
 - 3. **Điện trường có tính chất vật lý, không phải một công cụ toán học thuần túy:** Trong điện từ học cổ điển, điện trường là một đại lượng vật lý có thể được đo gián tiếp thông qua lực điện tác dụng lên điện tích thử. Nó có thể thay đổi theo thời gian, mang năng lượng và tương tác với vật chất. Điện trường cũng không cần có một môi trường vật chất như không khí để tồn tại. Nó có thể tồn tại trong chân không.
+
+Nói chung, điện trường là một thực thể vật lý, nó tồn tại trong không gian kể cả chân không và có thể mang năng lượng. Điện tích là nguồn tạo ra điện trường. Điện trường có thể truyền tương tác điện và có khả năng tác dụng lực lên điện tích đặt trong nó. Đó là 3 bản chất của điện trường
+
+### 1.2.Định nghĩa điện trường
+
+Chúng ta nhắc lại khái niệm điện trường, điện trường là một dạng vật chất tồn tại xung quanh điện tích, có khả năng tác dụng lực điện lên các điện tích khác đặt trong nó. Để hiểu rõ định nghĩa này, cần làm rõ ba thành phần:
+- 1. **Tồn tại xung quanh điện tích:** điện tích là nguồn tạo ra điện trường. Điện trường có thể tồn tại trong chân không, không nhất thiết phải có không khí hoặc một môi trường vật chất thông thường.
+- 2. **Có khả năng tác dụng lực điện:** điện trường biểu hiện sự tồn tại của nó thông qua tương tác điện với điện tích đặt trong trường.
+- 3. **Các điện tích đặt trong điện trường:** khi một điện tích chịu tác dụng của điện trường, nó chịu lực điện. Chiều của lực phụ thuộc vào dấu của điện tích đó.
+
+#### 1.2.1.Biểu diễn định lượng điện trường
